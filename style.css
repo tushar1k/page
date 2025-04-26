@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'General Sans';
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+}
+
+#hero {
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 40px;
+  color: white;
+}
+
+#nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#heading {
+  margin-top: 90px;
+}
+
+#heading h1 {
+  font-size: 10vw;
+  font-weight: 900;
+  line-height: 1;
+  opacity: 0.6;
+  margin-left: 50px;
+  text-transform: uppercase;
+}
+
+#heading #lol {
+  margin-left: 140px;
+  width: fit-content;
+}
+
+.blocktext {
+  width: fit-content;
+}
+
+.blocktext h5 {
+  font-size: small;
+  text-align: right;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+#small {
+  text-transform: uppercase;
+  margin: 50px 20px;
+  text-align: right;
+  padding-bottom: 0%;
+}
+
+#lol {
+  margin-top: 5px;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2vw;
+  position: absolute;
+  bottom: 2%;
+  width: 100%;
+}
+
+#footer a {
+  color: aliceblue;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#iconset {
+  display: flex;
+}
+
+#footer .circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #746969;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#second {
+  padding-top: 250px;
+  padding-right: 20px;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  text-transform: uppercase;
+}
+
+.elem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 1px solid #888;
+  padding: 4vw 3.5vw;
+  padding-right: 0;
+}
+
+.elem h1 {
+  font-size: 7.6vw;
+  opacity: 0.7;
+}
+
+.element {
+  border-bottom: 1px solid #888;
+  padding-bottom: 2;
+}
